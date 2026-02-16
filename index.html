@@ -20,10 +20,52 @@
     </p>
     <!-- adding an image -->
     <img  src="images/soweto.jpg" alt="Soweto" width="500" height="300">
+    <img src="images/buffalo.jpg" alt="buffalo" width="500" height="300">
+    <!-- adding a link -->
+    <a href="https://www.linkedin.com/in/kuteesa-mercylina-a72942360/" target="_blank">Linkedin</a><br>
+    <a href="https://www.facebook.com/mercylina.kuteesa">Facebook</a><br>
 
-    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+    <a href="https://www.instagram.com/kutelynah/">Instagram</a>
+
+    <!-- adding table -->
+     <table  border="6">  
+        <tr>
+        <h1>STUDENTS DETAILS</h1>
+            <th>Name</th>
+            <th>Age</th>
+            <th>reg no</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>Courses</th>
+        </tr>
+        <tr>
+            <td>Mercylina</td>
+            <td>20</td>
+            <td>12345</td>
+            <td>Female</td>
+            <td>Kampala</td>
+            <td>
+                <ol>
+                    <li>Programming</li>
+                    <li>Web Development</li>
+                    <li>Data Science</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>67890</td>
+            <td>Male</td>
+            <td>New York</td>
+        </tr>
+     </table>
+
+
+
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p><br>
     <p>HTML describes the structure of a web page using markup. HTML elements are represented by tags.</p>
-    <p>Iam a GOAT</p>
+    <p>Iam a <b>GOAT</b> in Web Development</p>
     <!-- inline styling -->
     <p style="color:aqua">
         The text will be blue
@@ -49,5 +91,29 @@
     <li>Whatsup</li>
     <li>Tiktok</li>
 </ol>
+
+<!-- adding a form tag -->
+
+<form action="submit_form.php" method="post">
+    <label for="firstname"> FIRST NAME</label><br>
+    <input type="text" placeholder=" enter name"><br>
+    <label for="firstname"> SECOND  NAME</label><br>
+    <input type="text" placeholder=" enter name"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <label for="date"> DATE</label><br>
+    <input type="date" placeholder=" enter date"><br>
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" value="female"><br>
+    <label for="gender">Male</label>
+    <input type="radio "name="gender" value="male"><br>
+    <label for="payment">Payment Method</label><br>
+    <select >
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="paypal">PayPal</option>
+
+    </select>
+    
 </body>
 </html>
